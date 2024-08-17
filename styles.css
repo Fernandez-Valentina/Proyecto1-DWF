@@ -24,7 +24,7 @@ body {
 /* ------------------------------ SECTION-ONE------------------------------------------- */
 
 .section-one{
-    background-color: red;
+    background-color: rgb(47, 255, 0);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6 1fr);
