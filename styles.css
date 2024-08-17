@@ -24,8 +24,10 @@ body {
 /* ------------------------------ SECTION-ONE------------------------------------------- */
 
 .section-one{
-    background-color: rgb(47, 255, 0);
+    background-color: rgb(208, 255, 198);
     display: grid;
+    margin: 5rem;
+    gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6 1fr);
 }
@@ -39,11 +41,24 @@ body {
     grid-column: 2/3;
     grid-row: 1/7;
 }
+.input1{
+    font-size: 16px;
+    font-weight:15px;
+    border: none;
+    height: 50px;
+    }
+.getstarted{
+    border: none;
+    height: 50px;
+}
 
 /* ------------------------------ SECTION-TWO------------------------------------------- */
 
 .section-two{
+    background-color: rgb(208, 255, 198);
     display: grid;
+    margin: 5rem;
+    gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6 1fr);
 }
@@ -55,4 +70,25 @@ body {
     height: 50rem;
     grid-column: 2/3;
     grid-row: 1/7;
+}
+.profile{
+    position: relative;
+    gap: 20px;
+    display: flex;
+    flex: row;
+}
+.image{
+    width: 38px;
+    height: 38px;
+    border-radius: 25px;
+}
+
+h1{
+    font-size:40px;
+    margin-bottom: 2rem;
+    background-color: rgb(136, 136, 254);}
+p{
+    width: 50rem;
+    font-size: 18px;
+    font-weight: 600;
 }
