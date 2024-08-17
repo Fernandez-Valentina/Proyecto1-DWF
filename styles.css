@@ -21,3 +21,38 @@ body {
     font-family: "Raleway", sans-serif;
     background-color: var(--light-grayish-blue);
 }
+/* ------------------------------ SECTION-ONE------------------------------------------- */
+
+.section-one{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6 1fr);
+}
+
+.latizq{
+    grid-column: 1/2;
+    grid-row: 2/6;
+}
+.illustration1{
+    height: 50rem;
+    grid-column: 2/3;
+    grid-row: 1/7;
+}
+
+/* ------------------------------ SECTION-TWO------------------------------------------- */
+
+.section-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6 1fr);
+}
+.latizq2{
+    grid-column: 1/2;
+    grid-row: 2/6;
+}
+.illustration2{
+    height: 50rem;
+    grid-column: 2/3;
+    grid-row: 1/7;
+}
