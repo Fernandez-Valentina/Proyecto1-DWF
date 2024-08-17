@@ -21,3 +21,22 @@ body {
     font-family: "Raleway", sans-serif;
     background-color: var(--light-grayish-blue);
 }
+.navbar {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+.links a {
+    text-decoration: none;
+    color: var(--very-dark-blue);
+    font-weight: 700;
+    padding-right: 40px;
+}
+.links a:hover {
+    color: var(--desaturated-blue);
+}
+.logo-header img {
+    width: 15rem;
+}
