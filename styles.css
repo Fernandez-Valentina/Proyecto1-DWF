@@ -40,9 +40,6 @@ body {
 .logo-header img {
     width: 15rem;
 }
-
-
-/* FOOTER */
 footer {
     background-color: var(--very-dark-blue);
     color: var(--light-grayish-blue);
