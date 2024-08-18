@@ -105,21 +105,22 @@ h1{
 }
 .section-two{
     display: grid;
-    margin: 8rem;
+    margin: 5rem;
     padding-top: 20rem;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6 1fr);
 }
+.latizq2{
+    grid-column: 1/2;
+    grid-row: 2/6;
+}
 .illustration2{
     height: 50rem;
     grid-column: 2/3;
-    grid-row: 2/7;
-}
-.latizq2{
-    grid-column: 1/2;
     grid-row: 1/7;
 }
+
 .parrafo2{
     white-space: pre-line;
     font-size: 18px;
@@ -193,23 +194,7 @@ h4{
     border: none;
     height: 50px;
 }
-/* ------------------------------ SECTION-TWO------------------------------------------- */
-.section-two{
-    display: grid;
-    margin: 5rem;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6 1fr);
-}
-.latizq2{
-    grid-column: 1/2;
-    grid-row: 2/6;
-}
-.illustration2{
-    height: 50rem;
-    grid-column: 2/3;
-    grid-row: 1/7;
-}
+
 /* SECCION TRES */
 /* SECCION TRES */
 .section-three {
