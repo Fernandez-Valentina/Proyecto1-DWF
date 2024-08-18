@@ -185,7 +185,6 @@ h4{
 
 @media (max-width: 768px){
     .section2fondo{
-        background-color: red;
         background-image: url(images/bg-curve-mobile.svg);
         background-repeat: no-repeat;
         background-position: top;
