@@ -19,7 +19,6 @@ html{
 }
 body {
     font-family: "Raleway", sans-serif;
-    /* background-color: var(--light-grayish-blue); */
 }
 .navbar {
     display: flex;
