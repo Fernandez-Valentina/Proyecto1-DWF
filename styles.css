@@ -84,15 +84,41 @@ h1{
     font-size: 18px;
     font-weight: 600;
 }
-.input1[type="email"] {
-    width: 50%;
-    padding: 8px;
-    margin: 10px 0;
-    border: 1px solid #000000;
-    border-radius: 3px;
-    margin-bottom: 2rem;
-    margin-right: 10px;
-    box-shadow: 0 0 10px rgba(6, 6, 6, 0.1);
+.new-form-container {
+    padding: 40px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-group {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+#newEmail {
+    padding: 9px;
+    border: 1px solid #cb2727;
+    border-radius: 4px;
+    box-sizing: border-box;
+} 
+#newEmailForm button {
+    padding: 5px 80px;
+    background: var(--very-dark-blue);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+#newEmailForm button:hover {
+    background: var(--bright-blue);
+} 
+#newEmailForm button:active {
+    background: var(--bright-blue);
+}
+.new-error-message {
+    color: red;
+    margin-top: 10px;
+    display: none; 
 }
 /* ------------------------------ SECTION-TWO------------------------------------------- */
 .section2fondo{
@@ -182,33 +208,7 @@ h4{
     height: 38px;
     border-radius: 25px;
 }
-/* SECTION TWO */
-.section-one{
-    display: grid;
-    margin: 5rem;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6 1fr);
-}
-.latizq{
-    grid-column: 1/2;
-    grid-row: 2/6;
-}
-.illustration1{
-    height: 50rem;
-    grid-column: 2/3;
-    grid-row: 1/7;
-}
-.input1{
-    font-size: 16px;
-    font-weight:15px;
-    border: none;
-    height: 50px;
-    }
-.getstarted{
-    border: none;
-    height: 50px;
-}
+
 /* SECCION TRES */
 .section-three {
     display: flex;

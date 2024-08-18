@@ -12,3 +12,9 @@ document.getElementById('emailForm').addEventListener('submit', function(event) 
         alert('Sent!');
     }
 });
+
+document.getElementById('newEmailForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const newEmail = document.getElementById('newEmail').value;
+    alert('Sent!: ' + newEmail);
+  });
