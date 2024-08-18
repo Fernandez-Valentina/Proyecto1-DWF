@@ -19,7 +19,7 @@ html{
 }
 body {
     font-family: "Raleway", sans-serif;
-    background-color: var(--light-grayish-blue);
+    /* background-color: var(--light-grayish-blue); */
 }
 .navbar {
     display: flex;
@@ -53,6 +53,7 @@ body {
         width: 12rem;
     }
 }
+
 /* ------------------------------ SECTION-ONE------------------------------------------- */
 h1{
     margin-bottom: 3rem;
@@ -96,9 +97,17 @@ h1{
     box-shadow: 0 0 10px rgba(6, 6, 6, 0.1);
 }
 /* ------------------------------ SECTION-TWO------------------------------------------- */
+
+.section2fondo{
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
 .section-two{
     display: grid;
     margin: 8rem;
+    padding-top: 20rem;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6 1fr);
