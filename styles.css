@@ -127,7 +127,23 @@ h1{
 .fylo-work:hover{
     color: rgb(87, 225, 205);;
 }
-
+.fylo-work{
+    color: rgb(50, 181, 91);
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+    border-bottom: 2px solid currentColor;
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 2px;
+}
+.fylo-work:hover{
+    color: var(--moderate-cyan);
+}
+.fylo-work img {
+    margin-left: 8px;
+}
 .testimonial{
     border-radius: 4px;
     width: 38rem;
