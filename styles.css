@@ -52,7 +52,6 @@ body {
         width: 12rem;
     }
 }
-
 /* ------------------------------ SECTION-ONE------------------------------------------- */
 h1{
     margin-bottom: 3rem;
@@ -96,7 +95,6 @@ h1{
     box-shadow: 0 0 10px rgba(6, 6, 6, 0.1);
 }
 /* ------------------------------ SECTION-TWO------------------------------------------- */
-
 .section2fondo{
     background-image: url(images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
@@ -211,8 +209,6 @@ h4{
     border: none;
     height: 50px;
 }
-
-/* SECCION TRES */
 /* SECCION TRES */
 .section-three {
     display: flex;
@@ -223,8 +219,6 @@ h4{
     padding: 20px;
     padding: 20px;
 }
-
-
 .text {
     padding: 30px;
     margin-right: 20px;
@@ -232,14 +226,10 @@ h4{
     margin-right: 20px;
     flex: 1;
 }
-
-
 .text .text-title {
     font-size:  x-large;
     font-weight: 700;
 }
-
-
 .text p {
     padding-bottom: 1rem;
     font-weight: 400;
@@ -248,8 +238,6 @@ h4{
     font-size: 1.3rem;
     max-width: 100%;
 }
-
-
 .form-container {
     padding: 40px;
     border-radius: 4px;
@@ -269,8 +257,6 @@ input[type="email"] {
     margin-bottom: 2rem;
     box-shadow: 0 0 10px rgba(6, 6, 6, 0.1);
 }
-
-
 button {
     padding: 10px 30px;
     background: var(--bright-blue);
@@ -290,35 +276,12 @@ button:hover{
 button:active{
     color: rgb(233, 233, 233);
 }
-
 .error-message {
     color: red;
     margin-top: 10px;
     display: none;
 }
 @media (max-width: 768px) {
-    .section-three {
-        flex-direction: column; 
-        align-items: center;
-        text-align: center;
-    }
-
-    .text {
-        margin-right: 0;
-        margin-bottom: -5rem;
-    }
-
-    .form-container {
-        width: 100%;
-        margin-top: 1rem;
-    }
-
-    button {
-        padding: 11px 80px;
-        width: 100%;
-        margin-top: -1rem;
-    }
-}@media (max-width: 768px) {
     .section-three {
         flex-direction: column; 
         align-items: center;
@@ -367,7 +330,6 @@ footer {
     font-weight: 400;
     padding: 0.5rem;
 }
-
 .footer-about {
     padding-top: 6rem;
 }
@@ -385,7 +347,6 @@ footer {
 .footer-about .list li {
     line-height: 2.5rem; 
 }
-
 .footer-contact {
     padding-top: 6rem;
 }
@@ -403,7 +364,6 @@ footer {
 .footer-contact .list li {
     line-height: 2.5rem; 
 }
-
 .footer-socials {
     padding-top: 6rem;
 }
@@ -429,29 +389,6 @@ footer {
         display: block; 
         text-align: left; 
     }
-
-    .footer-content,
-    .footer-about,
-    .footer-contact,
-    .footer-socials {
-        padding-top: 2rem;
-        margin-bottom: 2rem;
-    }
-    .contact-info {
-        justify-content: flex-start;
-    }
-    .footer-socials {
-        text-align: center; 
-    }
-    .footer-socials a {
-        margin: 0 5px;
-    }
-}@media (max-width: 768px) {
-    .container {
-        display: block; 
-        text-align: left; 
-    }
-
     .footer-content,
     .footer-about,
     .footer-contact,
