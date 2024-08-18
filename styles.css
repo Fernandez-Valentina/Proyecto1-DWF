@@ -21,20 +21,44 @@ body {
     font-family: "Raleway", sans-serif;
     background-color: var(--light-grayish-blue);
 }
+.navbar {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+.links a {
+    text-decoration: none;
+    color: var(--very-dark-blue);
+    font-weight: 700;
+    padding-right: 50px;
+}
+.links a:hover {
+    color: var(--desaturated-blue);
+}
+.logo-header img {
+    width: 15rem;
+}
+@media (max-width: 768px) {
+    .navbar {
+        padding: 40px;
+    }
+    .links a {
+        padding-right: 10px;
+        font-size: medium;
+        font-weight: 400;
+    }
+    .logo-header img {
+        width: 12rem;
+    }
+}
+/* ------------------------------ SECTION-ONE------------------------------------------- */
 h1{
     margin-bottom: 3rem;
     white-space: pre-line;
     font-size:40px;
 }
-/* main{
-    background-color: rgb(255, 247, 247);
-    background-repeat: no-repeat;
-    background-image: url(images/bg-curve-desktop.svg);
-    background-position:center;
-} */
-
-/* ------------------------------ SECTION-ONE------------------------------------------- */
-
 .section-one{
     display: grid;
     margin: 8rem;
@@ -71,9 +95,7 @@ input[type="email1"] {
     margin-right: 10px;
     box-shadow: 0 0 10px rgba(6, 6, 6, 0.1);
 }
-
 /* ------------------------------ SECTION-TWO------------------------------------------- */
-
 .section-two{
     display: grid;
     margin: 8rem;
@@ -135,59 +157,6 @@ h4{
     width: 38px;
     height: 38px;
     border-radius: 25px;
-}
-
-
-
-
-/* NAVBAR? */  
-
-
-.navbar {
-    display: flex;
-    height: auto;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px;
-}
-.links a {
-    text-decoration: none;
-    color: var(--very-dark-blue);
-    font-weight: 700;
-    padding-right: 50px;
-}
-.links a:hover {
-    color: var(--desaturated-blue);
-}
-.logo-header img {
-    width: 15rem;
-}
-@media (max-width: 768px) {
-    .navbar {
-        padding: 40px;
-    }
-    .links a {
-        padding-right: 10px;
-        font-size: medium;
-        font-weight: 400;
-    }
-    .logo-header img {
-        width: 12rem;
-    }
-}
-/* SECTION TWO */
-@media (max-width: 768px) {
-    .navbar {
-        padding: 40px;
-    }
-    .links a {
-        padding-right: 10px;
-        font-size: medium;
-        font-weight: 400;
-    }
-    .logo-header img {
-        width: 12rem;
-    }
 }
 /* SECTION TWO */
 .section-one{
