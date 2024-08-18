@@ -84,15 +84,41 @@ h1{
     font-size: 18px;
     font-weight: 600;
 }
-.input1[type="email"] {
-    width: 50%;
-    padding: 8px;
-    margin: 10px 0;
-    border: 1px solid #000000;
-    border-radius: 3px;
-    margin-bottom: 2rem;
-    margin-right: 10px;
-    box-shadow: 0 0 10px rgba(6, 6, 6, 0.1);
+.new-form-container {
+    padding: 40px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-group {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+#newEmail {
+    padding: 9px;
+    border: 1px solid #cb2727;
+    border-radius: 4px;
+    box-sizing: border-box;
+} 
+#newEmailForm button {
+    padding: 5px 80px;
+    background: var(--very-dark-blue);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+#newEmailForm button:hover {
+    background: var(--bright-blue);
+} 
+#newEmailForm button:active {
+    background: var(--bright-blue);
+}
+.new-error-message {
+    color: red;
+    margin-top: 10px;
+    display: none; 
 }
 /* ------------------------------ SECTION-TWO------------------------------------------- */
 .section2fondo{
@@ -183,7 +209,7 @@ h4{
     border-radius: 25px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .section2fondo{
         background-image: url(images/bg-curve-mobile.svg);
         background-repeat: no-repeat;
@@ -216,11 +242,6 @@ h4{
         justify-content: center;
     }
 }
-
-
-
-
-
 /* SECTION TWO */
 .section-one{
     display: grid;
